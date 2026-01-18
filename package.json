@@ -1,0 +1,50 @@
+{
+  "name": "war-crash-v3",
+  "version": "3.4.1",
+  "description": "WAR CRASH Control Panel Mobile App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build:android": "cordova build android --release",
+    "build:android-debug": "cordova build android",
+    "prepare:android": "cordova platform add android",
+    "run:android": "cordova run android",
+    "clean": "cordova clean"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:Bealllevey62/xatabail",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.13.2",
+    "body-parser": "^2.2.2",
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "latest",
+    "express": "^4.22.1",
+    "fs": "latest",
+    "grammy": "^1.38.2",
+    "moment-timezone": "latest",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.14.0",
+    "tar": "^7.5.3",
+    "telegraf": "^4.16.3"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-splashscreen": {}
+    }
+  },
+  "author": "XangelXy",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova-android": "^12.0.0"
+  }
+}

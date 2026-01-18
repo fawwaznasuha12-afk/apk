@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.warcrash.panel" version="3.4.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>WAR CRASH V3</name>
+    <description>WAR CRASH Control Panel Mobile App</description>
+    <author email="xangelxy@gmail.com" href="https://t.me/XangelXy">XangelXy</author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="5.0.0" />
+    <plugin name="cordova-plugin-network-information" spec="3.0.0" />
+    <plugin name="cordova-plugin-device" spec="2.0.1" />
+    <plugin name="cordova-plugin-statusbar" spec="3.0.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="6.0.2" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <preference name="ScrollEnabled" value="false" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="33" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <engine name="android" spec="12.0.0" />
+</widget>
